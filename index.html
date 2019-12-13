@@ -1,0 +1,480 @@
+<html>
+  <head>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+      <link rel="stylesheet" href="cargaMenuInicial.css"> 
+         <link rel="stylesheet" href="animate.css">
+       <meta name="viewport" content="width=device-width,initial-scale=1.0"><!-- hacer que el ancho se adapte a dispositivos -->
+          <link rel="stylesheet" href="sidenav.css"> 
+        <link rel="shortcut icon" href="icon.ico">
+    <style type="text/css"></style>
+        <style type="text/css">
+    :root {
+  --animation-delay:0.3s;
+  --poop:30vw;
+
+}
+.no-landscape{ display: inherit!important;; }
+        body{margin: 0px auto;}
+
+
+
+.bars-linkcontainer:hover .fa-bars{
+ color: #557ad1!important;
+} 
+.close-linkcontainer:hover .fa-times{
+ color: #557ad1!important;
+} 
+
+.twitter-linkcontainer:hover .fa-twitter{
+  color: #2daae2 !important;
+} 
+
+/*    .fa-twitter:hover{    
+  color: #2daae2 !important;
+}*/
+.facebook-linkcontainer:hover  .fa-facebook-square{    
+  color: #4064ac !important;
+}
+.instagram-linkcontainer:hover  .fa-instagram{
+  background: -webkit-linear-gradient(#c11bff,#ffc11b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.github-linkcontainer:hover  .fa-github{
+  color: #bfbfbf!important; 
+}
+        .padre {
+     background: #0a0d19;
+    background-image: url(ggg3.png);
+   /* background-blend-mode: difference;*/
+        background-blend-mode: luminosity;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+        /*height: 100vh;*/
+   height: 100%;
+  /*IMPORTANTE*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+-moz-box-shadow:    inset 0 0 140px  #0b0d13;
+   -webkit-box-shadow: inset 0 0 140px  #0b0d13;
+   box-shadow:         inset 0 0 140px #0b0d13;
+
+
+
+-moz-box-shadow:    inset 0 0 140px 70px  #0b0d13;
+   -webkit-box-shadow: inset 0 0 140px 70px #0b0d13;
+   box-shadow: inset 0 0 140px 70px #0b0d13;
+
+
+    /*transition: var(--animation-delay);*/
+    position: relative;
+}
+.zeo{     
+  padding: 15px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    position: absolute;
+        z-index: 5000;
+    top: 0;
+   
+
+}
+.zeo{font-size: 3vh;}
+img{ width: 45% !important;   -webkit-animation-name: example; /* Safari 4.0 - 8.0 */}
+.hijo {
+    max-height: 80%;
+    display: block;
+    
+
+}
+.nav_socialinks {
+   /* margin-left: 20px;*/
+  /*  padding-left: 10px;
+  
+    cursor: default;
+    padding-right: 10px;
+    display: flex;*/
+}
+.nav_socialinks a {
+        color: #f6f7fb;
+    display: -webkit-inline-box;
+    background-color: black;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 11px;
+    border-radius: 10px;
+    font-size: 20px;    font-size: 3vh;
+
+/*
+          padding: 15px;
+    border-radius: 76px;*/
+}
+.nombre{
+         text-align: center;
+    color: white;
+    /* background-color: red; */
+   /* padding-bottom: 15px;*/
+    font-size: 8vh;
+    font-family: "proxima-nova",sans-serif;
+        margin-top: -15px;
+
+
+
+            text-transform: uppercase;
+    font-size: 8vh;
+}
+
+.links{    margin: 16px;    margin-top: 0px; display: block;
+
+    /*nuevo*/
+    text-align: center;
+    /*display: grid;*/
+    margin-left: 148px;
+    margin-right: 148px;
+
+}
+
+
+.links a{        font: 300 32px/1 'Open Sans', sans-serif;
+    margin: 8px;
+    color: #e3e4e6!important;
+    text-decoration: none!important;
+    background-color: #0e0e0e;
+    padding: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+
+
+
+    background-color: #557ad1; 
+  border: none;
+  color: white;
+ /* padding: 15px 32px;*/
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
+/*
+  font-family: "proxima-nova",sans-serif;*/
+ font-size: 3vh;font-weight: 0;
+
+   /* box-shadow: 0 0 0px 2px #000000;*/
+
+  }
+    .links a:hover{ 
+      /*background-color:#3357ab;*/
+
+    background-color: #000000;
+    box-shadow: 0 0 0px 2px #ffffff;
+
+
+    }
+
+footer{
+      height: 50px;
+    height: 50px;
+      color: #3b5267;    color: #ffffff82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "proxima-nova",sans-serif;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+   /* right: 10px;*/
+    text-align: center;
+    justify-content: center;
+    right: 25px;
+
+}
+footer i{    margin-right: 5px;    margin-top: -1px; 
+}
+    
+
+@media screen and (max-width:655px) { 
+       :root {
+
+  --poop:100vw!important;
+
+}
+.no-landscape{ display: inherit!important; /*visibility: inherit;*/}
+
+.links{ display: grid;    margin-left: 60px;
+    margin-right: 60px;}
+
+.links a{   font-size:  19px; font-weight: 600;
+  }
+
+.nav_socialinks a {
+    color: #f6f7fb;
+    display: -webkit-inline-box;
+    background-color: black;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;    font-size: 3vh;
+
+}
+.nombre{
+         text-align: center;
+    color: white;
+    /* background-color: red; */
+ /*  padding-bottom: 15px;*/
+   /* font-size: 41px;*/
+      /* padding: 5px;*/
+        font-size: 5.5vh;
+    font-family: "proxima-nova",sans-serif;
+       
+}
+.padre{box-shadow: inset 0 0 50px 0px #0b0d13;}
+img{ width: 50%!important;}
+
+footer{ right: auto;}
+
+  }
+@media screen and (max-width:655px) and (orientation: landscape)  { 
+
+  .hijo { max-height: 100%;}
+  .no-landscape{ display: none!important;/* visibility: hidden;*/ }
+
+.links{display: block;    margin: 16px;
+    margin-top: 0px;}
+.links a{   font-size: 4vh;font-weight: 600;
+  min-width: 100px;
+  }
+
+  .nav_socialinks a {
+    font-size: 5vh;
+
+}
+footer{ right: auto;}
+           :root {
+
+  --poop:50vw!important;
+
+}
+  .zeo{font-size: 5vh;}
+ .sidenav a{ font-size: 6vh;}
+
+img{ width: 20%!important;}
+    .nombre{font-size: 10vh; padding: 5px;}
+
+  }
+
+@media screen and (max-width:1000px) and (orientation: landscape)  {
+
+  img {
+    width: 25% !important;
+  
+}
+
+ }
+/*@media screen and (min-width:565px) and (orientation: landscape) { img{ width: 30% !important;} }*/
+
+
+#julif-logo, .nombre, .links a,.nav_socialinks a {   opacity: 0;
+  animation-name: bounceIn;
+  animation-duration: 450ms;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;}
+
+  #julif-logo{animation-delay: 0.50s;}
+  .nombre{animation-delay: 1.00s;}
+
+
+   #link1{animation-delay: 1.30s;}
+   #link2{animation-delay: 1.60s;}
+   #link3{animation-delay: 2.00s;}
+
+   .twitter-linkcontainer{animation-delay: 2.40s;}
+.facebook-linkcontainer{animation-delay: 2.50s;}
+.instagram-linkcontainer{animation-delay: 2.60s;}
+.github-linkcontainer{animation-delay: 2.70s;}
+
+
+
+
+
+
+
+  @keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
+}
+
+
+
+</style>
+  </head>
+  <body>
+    <!-- ........................................................................................................ -->
+    <!-- .........................................| Preloader |.................................................. -->
+    <!-- ........................................................................................................ -->
+    <div id="preloadermenu" class="preloader" ></div>
+    <section id="cargando" >
+      <div id="cargandocentrar">
+        <div>
+         <!--  <img src="img/logo.png" class="imglogo" alt="logo" > -->
+         <img src="julif-logo-gris.svg" class="imglogo animated infinite pulse delay-0s" alt="logo" style="height: 100px;" >
+        </div>
+       <!--  <div id="cargandotext">CARGANDO...</div>
+        <div class="bar-container"> -->
+         <!--  <div id="relleno"></div> -->
+        </div><!-- fin de barcontainer -->
+        <!-- <div id="plataform">desktop</div> -->
+      </div><!-- fin de cargandocentrar -->
+    </section><!-- fin de cargando_mainmenu -->
+    <div id="terminado" style="display: none;">
+            <div id="mySidenav" class="sidenav" >
+        <div class="zeo close-linkcontainer" style="right: 10px;top: 10px;background-color: transparent;" onclick="closeNav()"> 
+            <i class="fas fa-times"></i>
+        </div>
+         <div class="sidenav-scroller-container">   
+        <div class="sidenavlinkscontainer">   
+            <a href="#" class="sidenavlinks"> Blog </a>
+            <a href="#" class="sidenavlinks"> Devblog </a>
+            <a href="#" class="sidenavlinks"> Portfolio </a>
+        </div>
+        </div>
+
+<div style="       /* text-align: center; */
+    /* display: inline-flex; */
+    /* width: -webkit-fill-available; */
+    /* display: flex; */
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    justify-content: center;
+   background-color: #000000;
+    width: 100%;
+    text-align: center;
+"> 
+        <div class="nav_socialinks" style="">
+                    <a href="https://twitter.com/julian_julif" class="twitter-linkcontainer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/JulifIsBetterThanYourMom/" class="facebook-linkcontainer"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/_julif_/" class="instagram-linkcontainer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/julif" class="github-linkcontainer"><i class="fab fa-github"></i></a>
+                </div>
+                </div>
+    </div>
+    <div id="padre" class="padre" style="margin-left: 0px;">
+        <div class="zeo bars-linkcontainer" style="left: 10px;top: 10px;border-radius: 10px;padding: 14px;padding-top: 10px;padding-bottom: 10px;" onclick="openNav()"> 
+            <i class="fas fa-bars"></i>
+        </div>
+        <!--   <img  src="julif-icon.svg" alt="logo Julif" style="width: 100%;height: auto;"> -->
+        <div class="hijo">
+            <div style="text-align: center;"><img  id="julif-logo" src="logo.png" alt="logo Julif"></div> 
+            <!--<div style="text-align: center;"><img  class="animated infinite jello-horizontal delay-0s" src="julif-icon.svg" alt="logo Julif"></div> -->
+            <!-- <div style="text-align: center;"><img class="animated infinite pulse delay-0s" src="julif-icon.svg" alt="logo Julif"></div> -->
+            <div class="nombre"> Julian Filardi </div>
+          
+       <div class="links" style="text-align: center;">
+        <a  id="link1" href="*">Blog</a>
+        <a  id="link2" href="*">Devblog</a>
+        <a  id="link3" href="*">Portfolio</a>
+</div>
+
+            <div  class="no-landscape" style="text-align: center;display: inline-flex;width: -webkit-fill-available;justify-content: center;">
+                <div class="nav_socialinks">
+                    <a href="https://twitter.com/julian_julif" class="twitter-linkcontainer"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/JulifIsBetterThanYourMom/" class="facebook-linkcontainer"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.instagram.com/_julif_/" class="instagram-linkcontainer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/julif" class="github-linkcontainer"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+        
+         <footer id="footer-text"> <i class="far fa-copyright"></i>  Julif 2019</footer>
+          <script>
+      var defaultyear= 2019;
+      var d = new Date();
+      var n = d.getFullYear();
+      if (n > defaultyear) {   document.getElementById("footer-text").innerHTML =  "  <i class='far fa-copyright'></i>  Julif "+ defaultyear+"-"+n;}
+      else{  document.getElementById("footer-text").innerHTML =  " <i class='far fa-copyright'></i>  Julif "+n; }
+    </script>
+    </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    // ---------------------------------------------------------------------------------------------
+// cargar las imagenes de la pantalla "cargando"
+// ---------------------------------------------------------------------------------------------
+
+     var images = [
+      "<img  onload=\"contar()\" src='ggg3.png'  width='50' >", 
+      "<img  onload=\"contar()\" src='julif-icon.svg'  width='50' >",
+     "<img  onload=\"contar()\" src='trianglify.svg'  width='50' >"
+     ];
+     preloadermenu.innerHTML = images;    
+     var imagesLoaded=0;
+     function contar() { 
+      // var relleno=document.getElementById('relleno');
+      var porcentaje;
+      var total=images.length;
+      // traduccion();
+      imagesLoaded++;  // cada vez que una imagen carge imagesLoaded suma 1
+      porcentaje = imagesLoaded*100/ total;   // saco el porcentaje de las imagenes cargadas
+      porcentaje = porcentaje.toFixed(); // le quito los decimales al resultado de el porcentaje
+      porcentaje = porcentaje +"%";
+      // relleno.style.width=porcentaje;
+      if (imagesLoaded == total) {   allLoaded();};
+    }
+    function allLoaded(){
+     // hide_show( cargando , main_menu);
+     document.getElementById('cargando').style.display="none";
+     document.getElementById('terminado').style.display="inherit";
+     porcentaje =0;
+     // relleno.style.width="0%";
+  } 
+    
+  </script>
+  <script type="text/javascript">
+
+
+
+function openNav() {
+
+    var style = getComputedStyle(document.body);
+// console.log(style.getPropertyValue('--poop'));
+var poop=style.getPropertyValue('--poop');
+
+       
+   
+    document.getElementById("mySidenav").style.width =poop;
+    // document.getElementById("padre").style.marginLeft = "100vw";
+    // document.getElementById("open-menu-desktop").style.display = "none";
+    // document.getElementById("close-menu-desktop").style.display = "inherit";
+}
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("padre").style.marginLeft= "0";
+    //  document.getElementById("open-menu-desktop").style.display = "inherit";
+    // document.getElementById("close-menu-desktop").style.display = "none";
+}
+</script>
+</html>
